@@ -3,6 +3,9 @@ name = "chat_app"
 version = "0.1.0"
 edition = "2018"
 
+[lib]
+path = "ws_rs_with_rocket/src/main.rs"
+
 [dependencies]
 ws = "0.8.1"
 rocket = "0.4.1"
